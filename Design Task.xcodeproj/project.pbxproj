@@ -22,6 +22,7 @@
 		653C6E9F2C64A4800066E439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653C6E9D2C64A4800066E439 /* Main.storyboard */; };
 		653C6EA12C64A4830066E439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653C6EA02C64A4830066E439 /* Assets.xcassets */; };
 		653C6EA42C64A4830066E439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653C6EA22C64A4830066E439 /* LaunchScreen.storyboard */; };
+		65EF3A4C2C6544DD0055C151 /* CustomfetchParcelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF3A4B2C6544DD0055C151 /* CustomfetchParcelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		653C6EA02C64A4830066E439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653C6EA32C64A4830066E439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		653C6EA52C64A4830066E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EF3A4B2C6544DD0055C151 /* CustomfetchParcelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomfetchParcelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		6528FE082C64D30300A889D7 /* FetchParcel */ = {
 			isa = PBXGroup;
 			children = (
+				65EF3A4A2C6544A90055C151 /* TableView */,
 				6528FE1C2C64DFAA00A889D7 /* ViewControllers */,
 				6528FE0D2C64D34000A889D7 /* Collection_View */,
 			);
@@ -148,6 +151,14 @@
 				653C6EA52C64A4830066E439 /* Info.plist */,
 			);
 			path = "Design Task";
+			sourceTree = "<group>";
+		};
+		65EF3A4A2C6544A90055C151 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				65EF3A4B2C6544DD0055C151 /* CustomfetchParcelTableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				653C6E9C2C64A4800066E439 /* ViewController.swift in Sources */,
 				6528FE0F2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift in Sources */,
 				653C6E982C64A4800066E439 /* AppDelegate.swift in Sources */,
+				65EF3A4C2C6544DD0055C151 /* CustomfetchParcelTableViewCell.swift in Sources */,
 				6528FE002C64C48C00A889D7 /* CollectionViewCell.swift in Sources */,
 				653C6E9A2C64A4800066E439 /* SceneDelegate.swift in Sources */,
 			);

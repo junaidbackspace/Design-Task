@@ -15,6 +15,8 @@ class HomeViewController: UIViewController ,UICollectionViewDelegate,UICollectio
     let productsQuantity : [String] = ["23","132","79","432","542","221"]
     
     @IBOutlet var fetchparcel_btn : UIImageView?
+    @IBOutlet var searchbar_view : UIView?
+    @IBOutlet var fetchparcel_view : UIView?
     
     
 //MARK:- Functions :- Collection View Data Population
@@ -37,8 +39,16 @@ class HomeViewController: UIViewController ,UICollectionViewDelegate,UICollectio
    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        searchbar_view?.layer.cornerRadius = 12
         fetchparcel_btn?.isUserInteractionEnabled = true
+        
+        fetchparcel_view?.layer.cornerRadius = (fetchparcel_view?.frame.size.width)! / 2
+        
+        //shadow effect
+        fetchparcel_view?.layer.shadowColor = UIColor.blue.cgColor
+        fetchparcel_view?.layer.shadowOpacity = 0.3
+        fetchparcel_view?.layer.shadowOffset = CGSize(width: 0, height: 5)
+        fetchparcel_view?.layer.shadowRadius = 10
        
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
         fetchparcel_btn?.addGestureRecognizer(tapGestureRecognizer)
