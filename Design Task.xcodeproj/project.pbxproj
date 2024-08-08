@@ -10,6 +10,12 @@
 		6528FDFA2C64BC8100A889D7 /* shoes2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6528FDF92C64BC8100A889D7 /* shoes2.jpeg */; };
 		6528FE002C64C48C00A889D7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528FDFF2C64C48C00A889D7 /* CollectionViewCell.swift */; };
 		6528FE052C64C8CF00A889D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528FE042C64C8CF00A889D7 /* HomeViewController.swift */; };
+		6528FE0A2C64D32400A889D7 /* FetchParcelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528FE092C64D32400A889D7 /* FetchParcelViewController.swift */; };
+		6528FE0F2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528FE0E2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift */; };
+		6528FE142C64D66200A889D7 /* powder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6528FE132C64D66200A889D7 /* powder.jpeg */; };
+		6528FE172C64D66F00A889D7 /* brush.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6528FE162C64D66F00A889D7 /* brush.jpeg */; };
+		6528FE1A2C64D67900A889D7 /* lipstick.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6528FE192C64D67900A889D7 /* lipstick.jpeg */; };
+		6528FE1F2C64EAD900A889D7 /* dhl logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528FE1E2C64EAD900A889D7 /* dhl logo.png */; };
 		653C6E982C64A4800066E439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C6E972C64A4800066E439 /* AppDelegate.swift */; };
 		653C6E9A2C64A4800066E439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C6E992C64A4800066E439 /* SceneDelegate.swift */; };
 		653C6E9C2C64A4800066E439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C6E9B2C64A4800066E439 /* ViewController.swift */; };
@@ -22,6 +28,12 @@
 		6528FDF92C64BC8100A889D7 /* shoes2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes2.jpeg; sourceTree = "<group>"; };
 		6528FDFF2C64C48C00A889D7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		6528FE042C64C8CF00A889D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6528FE092C64D32400A889D7 /* FetchParcelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchParcelViewController.swift; sourceTree = "<group>"; };
+		6528FE0E2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchParcelCollectionViewCell.swift; sourceTree = "<group>"; };
+		6528FE132C64D66200A889D7 /* powder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = powder.jpeg; sourceTree = "<group>"; };
+		6528FE162C64D66F00A889D7 /* brush.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brush.jpeg; sourceTree = "<group>"; };
+		6528FE192C64D67900A889D7 /* lipstick.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lipstick.jpeg; sourceTree = "<group>"; };
+		6528FE1E2C64EAD900A889D7 /* dhl logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dhl logo.png"; sourceTree = "<group>"; };
 		653C6E942C64A4800066E439 /* Design Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653C6E972C64A4800066E439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		653C6E992C64A4800066E439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +58,7 @@
 		6528FDFC2C64C3E100A889D7 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				6528FE082C64D30300A889D7 /* FetchParcel */,
 				6528FDFD2C64C41900A889D7 /* Home */,
 			);
 			path = views;
@@ -76,6 +89,31 @@
 			path = ViewControler;
 			sourceTree = "<group>";
 		};
+		6528FE082C64D30300A889D7 /* FetchParcel */ = {
+			isa = PBXGroup;
+			children = (
+				6528FE1C2C64DFAA00A889D7 /* ViewControllers */,
+				6528FE0D2C64D34000A889D7 /* Collection_View */,
+			);
+			path = FetchParcel;
+			sourceTree = "<group>";
+		};
+		6528FE0D2C64D34000A889D7 /* Collection_View */ = {
+			isa = PBXGroup;
+			children = (
+				6528FE0E2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift */,
+			);
+			path = Collection_View;
+			sourceTree = "<group>";
+		};
+		6528FE1C2C64DFAA00A889D7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6528FE092C64D32400A889D7 /* FetchParcelViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		653C6E8B2C64A4800066E439 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,10 @@
 				653C6E9B2C64A4800066E439 /* ViewController.swift */,
 				653C6E9D2C64A4800066E439 /* Main.storyboard */,
 				653C6EA02C64A4830066E439 /* Assets.xcassets */,
+				6528FE1E2C64EAD900A889D7 /* dhl logo.png */,
+				6528FE192C64D67900A889D7 /* lipstick.jpeg */,
+				6528FE162C64D66F00A889D7 /* brush.jpeg */,
+				6528FE132C64D66200A889D7 /* powder.jpeg */,
 				6528FDF92C64BC8100A889D7 /* shoes2.jpeg */,
 				653C6EA22C64A4830066E439 /* LaunchScreen.storyboard */,
 				653C6EA52C64A4830066E439 /* Info.plist */,
@@ -165,9 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6528FE1F2C64EAD900A889D7 /* dhl logo.png in Resources */,
 				653C6EA42C64A4830066E439 /* LaunchScreen.storyboard in Resources */,
+				6528FE1A2C64D67900A889D7 /* lipstick.jpeg in Resources */,
 				653C6EA12C64A4830066E439 /* Assets.xcassets in Resources */,
+				6528FE172C64D66F00A889D7 /* brush.jpeg in Resources */,
 				653C6E9F2C64A4800066E439 /* Main.storyboard in Resources */,
+				6528FE142C64D66200A889D7 /* powder.jpeg in Resources */,
 				6528FDFA2C64BC8100A889D7 /* shoes2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6528FE0A2C64D32400A889D7 /* FetchParcelViewController.swift in Sources */,
 				6528FE052C64C8CF00A889D7 /* HomeViewController.swift in Sources */,
 				653C6E9C2C64A4800066E439 /* ViewController.swift in Sources */,
+				6528FE0F2C64D36D00A889D7 /* FetchParcelCollectionViewCell.swift in Sources */,
 				653C6E982C64A4800066E439 /* AppDelegate.swift in Sources */,
 				6528FE002C64C48C00A889D7 /* CollectionViewCell.swift in Sources */,
 				653C6E9A2C64A4800066E439 /* SceneDelegate.swift in Sources */,

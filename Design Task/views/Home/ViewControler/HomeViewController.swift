@@ -14,8 +14,10 @@ class HomeViewController: UIViewController ,UICollectionViewDelegate,UICollectio
     let productsName : [String] = ["Camera","Jogar","Watch","Sneaker","Camera","Shoes"]
     let productsQuantity : [String] = ["23","132","79","432","542","221"]
     
+    @IBOutlet var fetchparcel_btn : UIImageView?
     
-//MARK:- Collection View Data Population
+    
+//MARK:- Functions :- Collection View Data Population
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
@@ -36,18 +38,22 @@ class HomeViewController: UIViewController ,UICollectionViewDelegate,UICollectio
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        fetchparcel_btn?.isUserInteractionEnabled = true
+       
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
+        fetchparcel_btn?.addGestureRecognizer(tapGestureRecognizer)
+
     }
     
 
-    /*
-    // MARK: - Navigation
+    @objc func imageTapped() {
+        let nextViewController = self.storyboard!.instantiateViewController(withIdentifier: "fetchparcel")
+        nextViewController.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(nextViewController, animated: true)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+
+       
     }
-    */
 
+ 
 }
