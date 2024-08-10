@@ -2,7 +2,7 @@
   <tr>
     <td align="center">
       <strong>Home Screen</strong><br>
-      <img src="https://github.com/user-attachments/assets/78114261-a174-4fce-8722-6c1957f6226b" alt="Home Screen" width="200"/>
+      <img src="https://github.com/user-attachments/assets/95615568-a36a-4395-b1fb-78aee6ea62cd" alt="Home Screen" width="200"/>
     </td>
     <td align="center">
       <strong>Fetch Product Screen</strong><br>
